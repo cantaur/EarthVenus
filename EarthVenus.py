@@ -13,7 +13,7 @@ line.pencolor("#bbb")
 
 def setup_planets(planets):
     for planet in planets:
-        dictionary = planets[planet] # planets['venus']
+        dictionary = planets[planet]
 
         turtle = Turtle(shape='circle')
 
